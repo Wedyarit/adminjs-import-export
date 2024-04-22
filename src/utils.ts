@@ -15,7 +15,7 @@ import { xmlImporter } from './modules/xml/xml.importer.js';
 import { Importer } from './parsers.js';
 
 export const saveRecords = async (
-  records: Record<string, any>[],
+  records: Record<string, unknown>[],
   resource: BaseResource
 ): Promise<BaseRecord[]> => {
   return Promise.all(
