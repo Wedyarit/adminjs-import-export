@@ -15,7 +15,8 @@
     "release": "semantic-release",
     "build": "tsc",
     "dev": "tsc --watch",
-    "lint": "eslint './src/**/*'"
+    "lint": "eslint './src/**/*'",
+    "postinstall": "tsc"
   },
   "husky": {
     "hooks": {
